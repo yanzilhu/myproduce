@@ -22,7 +22,7 @@ LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
 9.8 M     Non-trainable params
 94.2 M    Total params
 376.999   Total estimated model params size (MB)
-Epoch 8:  42%|▍| 1226/2920 [07:56<10:57,  2.57it/s, loss=24.9, v_num=coqd, loss_depth=6.340, loss_depth_offset=6.340, loss_depth_final=12.60                                                          
+Epoch 9:  50%|▌| 1464/2920 [09:28<09:25,  2.57it/s, loss=24.4, v_num=coqd, loss_depth=6.580, loss_depth_offset=6.530, loss_depth_final=13.00                                                          
 /home/h/miniconda3/envs/p3d/lib/python3.10/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:224: PossibleUserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 24 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
   rank_zero_warn(
 /home/h/miniconda3/envs/p3d/lib/python3.10/site-packages/pytorch_lightning/utilities/data.py:84: UserWarning: Trying to infer the `batch_size` from an ambiguous collection. The batch size we found is 1. To avoid any miscalculations, use `self.log(..., batch_size=batch_size)`.
