@@ -1,0 +1,9 @@
+{"time":"2025-12-04T15:06:45.335572506+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
+{"time":"2025-12-04T15:06:46.132606337+08:00","level":"INFO","msg":"stream: created new stream","id":"xyi3coqd"}
+{"time":"2025-12-04T15:06:46.13275466+08:00","level":"INFO","msg":"stream: started","id":"xyi3coqd"}
+{"time":"2025-12-04T15:06:46.132786841+08:00","level":"INFO","msg":"handler: started","stream_id":"xyi3coqd"}
+{"time":"2025-12-04T15:06:46.132826644+08:00","level":"INFO","msg":"writer: started","stream_id":"xyi3coqd"}
+{"time":"2025-12-04T15:06:46.132837802+08:00","level":"INFO","msg":"sender: started","stream_id":"xyi3coqd"}
+{"time":"2025-12-04T15:07:11.655054561+08:00","level":"INFO","msg":"flowcontrol: backed up, offloading to disk","recordNumber":274}
+{"time":"2025-12-04T15:07:11.655084564+08:00","level":"INFO","msg":"flowcontrol: unblocked","totalOffloaded":1}
+{"time":"2025-12-04T16:29:35.731348286+08:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/2019302141005-china/NYU_Depth_v2/xyi3coqd/file_stream\": EOF"}

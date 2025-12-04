@@ -1,0 +1,230 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            ydqidpa7ia7an5ad8ll0kk6icee13h5g:
+                codePath: trainer.py
+                codePathLocal: trainer.py
+                cpu_count: 24
+                cpu_count_logical: 24
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "1474771451904"
+                        used: "570224697344"
+                email: 2019302141005@whu.edu.cn
+                executable: /home/h/miniconda3/envs/nddepth/bin/python
+                git:
+                    commit: 8692b9423d960a6d3cd8d578c269b33602b0f48c
+                    remote: https://github.com/SysCV/P3Depth.git
+                gpu: NVIDIA GeForce RTX 5090 D
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Blackwell
+                      cudaCores: 21760
+                      memoryTotal: "34190917632"
+                      name: NVIDIA GeForce RTX 5090 D
+                      uuid: GPU-b9a23aec-bc01-35dd-97f9-ad1e1ccd9574
+                host: h-LEGION-REN9000K-34IAS
+                memory:
+                    total: "67019390976"
+                os: Linux-6.14.0-33-generic-x86_64-with-glibc2.17
+                program: /home/h/yz/exp/P3Depth/trainer.py
+                python: CPython 3.8.20
+                root: ./output/StructRankNetPQRS_resnet101_03_12_2025-155024_exp1_NYU_Depth_v2
+                startedAt: "2025-12-03T07:50:25.271854Z"
+                writerId: ydqidpa7ia7an5ad8ll0kk6icee13h5g
+        m:
+            - "1": trainer/global_step
+              "6":
+                - 3
+              "7": []
+            - "2": '*'
+              "5": 1
+              "6":
+                - 1
+              "7": []
+        python_version: 3.8.20
+        t:
+            "1":
+                - 1
+                - 9
+                - 41
+                - 49
+                - 63
+                - 74
+                - 79
+            "2":
+                - 1
+                - 9
+                - 41
+                - 49
+                - 63
+                - 74
+                - 79
+            "3":
+                - 7
+                - 13
+                - 66
+            "4": 3.8.20
+            "5": 0.23.1
+            "8":
+                - 2
+            "12": 0.23.1
+            "13": linux-x86_64
+CMAP:
+    value: rainbow
+DATA/CENTER_CROP_SIZE:
+    value:
+        - 640
+        - 480
+DATA/CX_Depth:
+    value: 313.0447587080473
+DATA/CY_Depth:
+    value: 238.44389626620386
+DATA/FX_Depth:
+    value: 582.6244816773795
+DATA/FY_Depth:
+    value: 582.6910327098864
+DATA/MAX_DEPTH:
+    value: 10
+DATA/MIN_DEPTH:
+    value: 0.001
+DATA/NORMALIZE_MEAN:
+    value:
+        - 0.485
+        - 0.456
+        - 0.406
+DATA/NORMALIZE_STD:
+    value:
+        - 0.229
+        - 0.224
+        - 0.225
+DATA/OUTPUT_SIZE:
+    value:
+        - 640
+        - 480
+DATA/PCA_EIGVAL:
+    value:
+        - 0.2175
+        - 0.0188
+        - 0.0045
+DATA/PCA_EIGVEC:
+    value:
+        - - -0.5675
+          - 0.7192
+          - 0.4009
+        - - -0.5808
+          - -0.0045
+          - -0.814
+        - - -0.5836
+          - -0.6948
+          - 0.4203
+DATA/PCA_LIGHTING:
+    value: 0.1
+DATA/RANDOM_BRIGHTNESS:
+    value: 0.4
+DATA/RANDOM_CONTRAST:
+    value: 0.4
+DATA/RANDOM_ROT_DEGREE:
+    value: 5
+DATA/RANDOM_SATURATION:
+    value: 0.4
+DATA/SCALE_SIZE_MIN:
+    value: 416
+DATA/TRAIN_CROP_SIZE:
+    value:
+        - 544
+        - 416
+DATASET/PATH:
+    value: /home/h/yz/data/nyu_depth_v2/official_splits/
+DATASET/TYPE:
+    value: NYU_Depth_v2
+DEVICE:
+    value: cuda
+EXP_NAME:
+    value: StructRankNetPQRS_resnet101_03_12_2025-155024_exp1
+LOSS/DEPTH_INIT:
+    value: silog_loss_variance
+LOSS/DEPTH_OFFSET:
+    value: silog_loss_variance
+LOSS/KSI:
+    value: 1
+LOSS/LAMBDA:
+    value: 1
+LOSS/MULTISCALE:
+    value: ""
+LOSS/NU:
+    value: 1
+LOSS/ONLY_COMPLETED_DEPTH_SUPERVISION:
+    value: false
+LOSS/PATCH:
+    value: ""
+LOSS/PATCH_SIZE:
+    value: 32
+LOSS/PQRS:
+    value: ""
+LOSS/RHO:
+    value: 1
+LOSS/SMOOTH:
+    value: ""
+LOSS/SSIM:
+    value: false
+LOSS/TYPE:
+    value: silog_loss_variance
+LOSS/W_depth_SSIM:
+    value: 0.5
+LOSS/W_depth_final:
+    value: 1
+LOSS/W_depth_init:
+    value: 0.5
+LOSS/W_depth_offset:
+    value: 0.5
+MODEL/BACKBONE:
+    value: resnet101
+MODEL/ITERATIVE_REFINEMENT:
+    value: 3
+MODEL/MULTISCALE_ADJUSTMENT:
+    value: true
+MODEL/OFFSET:
+    value: true
+MODEL/OFFSET_THRESHOLD:
+    value: 0.1
+MODEL/PQRS:
+    value: true
+MODEL/TYPE:
+    value: StructRankNetPQRS
+MODEL/USE_CONFIDENCE:
+    value: 1
+OUTPUT_DIR:
+    value: ./output/StructRankNetPQRS_resnet101_03_12_2025-155024_exp1_NYU_Depth_v2
+RESUME:
+    value: ""
+SEED:
+    value: 1
+SOLVER/BASE_LR:
+    value: 0.0001
+SOLVER/BATCHSIZE:
+    value: 16
+SOLVER/EPOCH:
+    value: 20
+SOLVER/LR_GAMMA:
+    value: 0.1
+SOLVER/LR_STEP_SIZE:
+    value: 20
+SOLVER/NUM_WORKERS:
+    value: 4
+SOLVER/SAVE_INTERVAL:
+    value: 1
+SOLVER/WEIGHT_DECAY:
+    value: 0.0001
+TEST/BATCHSIZE:
+    value: 1
+TEST/SAVE_OFFSETS_CONFIDENCE:
+    value: false
+TEST/SAVE_POINTCLOUDS:
+    value: false
+TEST/SAVE_PQRS:
+    value: false
+TEST/SAVE_RESULTS:
+    value: false
