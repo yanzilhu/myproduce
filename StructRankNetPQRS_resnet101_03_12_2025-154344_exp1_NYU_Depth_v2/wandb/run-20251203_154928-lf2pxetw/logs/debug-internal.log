@@ -1,6 +1,0 @@
-{"time":"2025-12-03T15:49:29.133080287+08:00","level":"INFO","msg":"stream: starting","core version":"0.23.1"}
-{"time":"2025-12-03T15:49:29.720426554+08:00","level":"INFO","msg":"stream: created new stream","id":"lf2pxetw"}
-{"time":"2025-12-03T15:49:29.720547747+08:00","level":"INFO","msg":"stream: started","id":"lf2pxetw"}
-{"time":"2025-12-03T15:49:29.720551434+08:00","level":"INFO","msg":"handler: started","stream_id":"lf2pxetw"}
-{"time":"2025-12-03T15:49:29.720590221+08:00","level":"INFO","msg":"writer: started","stream_id":"lf2pxetw"}
-{"time":"2025-12-03T15:49:29.720632093+08:00","level":"INFO","msg":"sender: started","stream_id":"lf2pxetw"}

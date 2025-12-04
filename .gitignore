@@ -1,8 +1,0 @@
-.vscode/
-output/
-__pycache__/
-*.pth
-*.ckpt
-*.ply
-*.npy
-events.out.tfevents.*
